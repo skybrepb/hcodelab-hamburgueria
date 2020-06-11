@@ -2,7 +2,7 @@
 
 const Contato =  use('App/Models/Contato')
 
-class FaleconoscoController {
+class ContatoController {
 
   async store ({ request }) {
     const data = request.only(['name','email','phone','birth_at'])
