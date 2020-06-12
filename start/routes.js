@@ -39,4 +39,5 @@ Route.post('/admin/users', 'UserController.store') // Cadastra Usuários
 Route.post('/admin/users/:id/uploads', 'UserController.changePhoto')
 Route.get('/admin/users/:id/photo', 'UserController.photo')
 
+Route.post('/auths', 'AuthController.store') // Autentica Usuário
 
