@@ -28,11 +28,11 @@ Route.get('/cardapio/:id', 'CardapioController.show')       //Lista um registro 
 Route.put('/cardapio/:id', 'CardapioController.update')    // Atualiza um registro
 Route.delete('/cardapio/:id', 'CardapioController.destroy') // Deleta um registro
 
-Route.post('/contato', 'ContatoController.store')         // Inclui um registro
-Route.get('/contato', 'ContatoController.index')          // lista todos os registros
-Route.get('/contato/:id', 'ContatoController.show')       //Lista um registro especifico
-Route.put('/contato/:id', 'ContatoController.update')    // Atualiza um registro
-Route.delete('/contato/:id', 'ContatoController.destroy') // Deleta um registro
+Route.post('/admin/contato', 'ContatoController.store')         // Inclui um registro
+Route.get('/admin/contato', 'ContatoController.index')          // lista todos os registros
+Route.get('/admin/contato/:id', 'ContatoController.show')       //Lista um registro especifico
+Route.put('/admin/contato/:id', 'ContatoController.update')    // Atualiza um registro
+Route.delete('/admin/contato/:id', 'ContatoController.destroy') // Deleta um registro
 
 Route.get('/admin/users', 'UserController.index') // Lista Usuários
 Route.post('/admin/users', 'UserController.store') // Cadastra Usuários
