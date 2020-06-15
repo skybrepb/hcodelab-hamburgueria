@@ -36,6 +36,7 @@ Route.delete('/admin/contato/:id', 'ContatoController.destroy') // Deleta um reg
 
 Route.get('/admin/users', 'UserController.index') // Lista Usuários
 Route.post('/admin/users', 'UserController.store') // Cadastra Usuários
+Route.get('/admin/users/:id', 'ContatoController.show')       //Lista um registro especifico
 Route.post('/admin/users/:id/uploads', 'UserController.changePhoto')
 Route.get('/admin/users/:id/photo', 'UserController.photo')
 
