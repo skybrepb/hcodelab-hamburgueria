@@ -22,11 +22,11 @@ Route.get('/', () => {
 
 Route.post('/faleconosco', 'FaleconoscoController.store')
 
-Route.post('/cardapio', 'CardapioController.store')         // Inclui um registro
-Route.get('/cardapio', 'CardapioController.index')          // lista todos os registros
-Route.get('/cardapio/:id', 'CardapioController.show')       //Lista um registro especifico
-Route.put('/cardapio/:id', 'CardapioController.update')    // Atualiza um registro
-Route.delete('/cardapio/:id', 'CardapioController.destroy') // Deleta um registro
+Route.post('/admin/cardapio', 'CardapioController.store')         // Inclui um registro
+Route.get('/admin/cardapio', 'CardapioController.index')          // lista todos os registros
+Route.get('/admin/cardapio/:id', 'CardapioController.show')       //Lista um registro especifico
+Route.put('/admin/cardapio/:id', 'CardapioController.update')    // Atualiza um registro
+Route.delete('/admin/cardapio/:id', 'CardapioController.destroy') // Deleta um registro
 
 Route.post('/admin/contato', 'ContatoController.store')         // Inclui um registro
 Route.get('/admin/contato', 'ContatoController.index')          // lista todos os registros
